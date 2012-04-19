@@ -49,6 +49,7 @@ configure-stamp:
 	dh_testdir
 	# Add here commands to configure the package.
 	dh_auto_configure
+	./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
 	touch configure-stamp
 
 
@@ -170,7 +171,6 @@ binary-common:
 	dh_strip
 	dh_compress
 	dh_fixperms
-	dh_python2 --no-guessing-versions
 	dh_makeshlibs
 	dh_installdeb
 	dh_shlibdeps

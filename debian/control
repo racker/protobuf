@@ -5,7 +5,6 @@ Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Iustin Pop <iustin@debian.org>
 Uploaders: Robert S. Edmonds <edmonds@debian.org>
 Build-Depends: debhelper (>= 7),
- python (>= 2.6.6-3~), python-dev (>= 2.6.6-3~),
  python-setuptools (>= 0.6c9), xmlto, ant, zlib1g-dev,
  default-jdk, unzip, chrpath
 Standards-Version: 3.9.1
